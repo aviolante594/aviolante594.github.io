@@ -1,0 +1,115 @@
+body {
+	color: slategrey;
+	font-family: 'Prompt', sans-serif;;
+	background-image: 	<img src="assets/images/background3.png">;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  justify-content: center;
+  background-color: hotpink;
+  min-height: 200px;
+  height: 800px;
+  align-items: center;
+}
+
+.container div {
+  margin: 10px 10px;
+  width: 100px;
+  height: 100px;
+  background-color: slategrey;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+div.item1 {
+  position: relative;
+  right: 100px;
+  bottom: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+div.item2 {
+	position: relative;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+	top: 200px;
+}
+
+div.item3 {
+	position: relative;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+	bottom: 275px;
+}
+
+div.item4 {
+	position: relative;
+	right: 100px;
+	width: 200px;
+	height: 200px;
+	bottom: 200x;
+}
+
+
+div.item5 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: 250px;
+}
+
+
+div.item6 {
+	position: relative;
+	left: 250px;
+	width: 200px;
+	height: 200px;
+	bottom: 200px;
+}
+
+div.item7 {
+	position: relative;
+	right: 100px;
+	width: 200px;
+	height: 200px;
+	top: 200px;
+	background-color: yellowgreen;
+	color: whitesmoke;
+}
+
+.feeling {
+	color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

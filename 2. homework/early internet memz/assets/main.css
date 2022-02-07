@@ -1,0 +1,30 @@
+body {
+	background: yellowgreen;
+}
+
+.title {
+	color: blueviolet;
+}
+
+.header {
+	background: black;
+	color: cyan;
+	padding: 20px;
+	font-family: serif;
+}
+
+.captions {
+	background: blueviolet;
+	color: yellowgreen;
+	font-family: serif;
+	padding: 50px;
+	font-size: large;
+}
+
+.caption2 {
+	color: cyan;
+}
+
+.caption3 {
+	color: lightseagreen;
+}

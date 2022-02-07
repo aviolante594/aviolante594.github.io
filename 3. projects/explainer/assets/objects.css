@@ -1,0 +1,15 @@
+body {
+	color: slategrey;
+	font-family: 'Prompt', sans-serif;;
+	background-image: 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  justify-content: center;
+  background-color: hotpink;
+  align-items: center;
+
+}

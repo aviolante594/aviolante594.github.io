@@ -1,0 +1,49 @@
+body {
+	color: slategrey;
+	font-family: 'Prompt', sans-serif;;
+	background-image: 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  background-color: slategrey;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  justify-content: center;
+  background-color: slategrey;
+  align-items: center;
+
+}
+
+.caption {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: slategrey;
+  color: whitesmoke;
+}
+
+.quote {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: slategrey;
+  color: whitesmoke;
+}
+
+.time{
+  color: yellowgreen;
+}
+
+.credits {
+  font-display: italic;
+}

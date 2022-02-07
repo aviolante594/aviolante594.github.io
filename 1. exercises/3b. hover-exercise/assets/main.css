@@ -1,0 +1,48 @@
+body {
+	background-color: lightgoldenrodyellow;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.4;
+  
+}
+
+
+/* gradient */
+
+.gradient-fill {
+	font-size: 50px;
+}
+
+ .gradient-fill:hover {
+  background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  font-style: italic;
+  transition: all 0.5s ease-in-out;
+}
+
+/* image filters */
+
+.imgfilters img{
+	margin-right: auto;
+	margin-right: auto;
+	width: 50%;
+ 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(100%);
+
+}
+.imgfilters img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+/* links */
+a:visited {
+  color: transparent;
+}
+
+a: link {
+  color: transparent;
+}

@@ -1,0 +1,23 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  justify-content: center;
+  background-color: mediumpurple;
+  min-height: 200px;
+  height: 100vh;
+  align-items: center;
+}
+
+.container div {
+  margin: 10px 10px;
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+}
+
+div.relative {
+  background-color: yellow;
+  position: relative;
+}
