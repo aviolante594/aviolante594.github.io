@@ -88,8 +88,25 @@ div.item7 {
 }
 
 
+.shape {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #5293d5;
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: all 1s ease-in-out;
+}
 
-
+.shape:hover {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  background-color: #ffe002;
+  -webkit-transform: scale(2.25);
+  cursor: pointer;
+}
 
 
 

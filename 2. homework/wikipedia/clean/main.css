@@ -1,0 +1,68 @@
+
+body {
+font-family: verdigris-mvb-pro-big, serif;
+font-weight: 400;
+font-style: normal;
+color: black;
+font-size: 150%;
+}
+
+h1 {
+font-size: 300%;
+}
+
+/* wrapper and intro divs */
+
+.wrapper {
+  padding:10px;
+  /*background-color: #F28907;*/
+}
+
+.intro {
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+/* divs for states with no pic */
+
+.content-1 {
+  display: flex;
+  /*background-color: #F28907;*/
+  flex-direction: column;
+  width: 70%;
+}
+
+.content-1 div {
+  margin: 10px 10px;
+  padding: 10px;
+
+  /*background-color: #F2A7A7;*/
+}
+
+/* divs for states with pics */
+
+.content-2 {
+  display: flex;
+  /*background-color: #F28907;*/
+  flex-direction: row;
+}
+
+.content-2 div {
+  margin: 10px 10px;
+  padding: 10px;
+ /* background-color: #F2A7A7;*/
+}
+
+/* extra enhancements */
+
+img {
+  width: 450px;
+}
+
+.ohio {
+  width: 300px;
+}
+
+.caption {
+  font-size: 75%;
+}
