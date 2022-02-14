@@ -1,0 +1,41 @@
+body {
+	color: whitesmoke;
+	font-family: 'Prompt', sans-serif;;
+}
+
+h1 {
+	color: black;
+}
+
+.container2 {
+  display: flex;
+  padding:10px;
+  background-color: whitesmoke;
+/*  min-height: 300px;*/  
+  font-family: 'PT Mono', monospace;
+  color:  #042135;
+  font-size:  36px;
+  text-align: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+}
+
+.item {
+display: flex;
+margin: 10px 10px;
+width: 200px
+}
+
+.box1 {
+	background-color: darkblue;
+}
+
+.box2 {
+	background-color: yellow;
+}
+
+.box3 {
+	background-color: seagreen;
+}

@@ -4,6 +4,7 @@ body {
   color: black;
   font-weight: normal;
   font-size: 150%;
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -18,11 +19,9 @@ font-size: 300%;
 }
 
 .intro {
+  text-align: center;
   margin: 10px 10px;
   padding: 10px;
-  border: dotted;
-  border-color: #21BFBF;
-  border-width: 10px;
 }
 
 /* divs for states with no pic */
@@ -38,7 +37,8 @@ font-size: 300%;
   padding: 10px;
   background-color: #F2A7A7;
   border: solid;
-  border-color: #21BFBF;
+  border-color: black;
+  border-radius: 25px;
 }
 
 /* divs for states with pics */
@@ -54,7 +54,31 @@ font-size: 300%;
   padding: 10px;
   background-color: #F2A7A7;
   border: solid;
-  border-color: #21BFBF;
+  border-color: black;
+  border-radius: 25px;
+}
+
+.aztext {
+  display: flex;
+  flex-direction: column;
+}
+
+.azpic {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imagediv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.connecticut {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 /* extra enhancements */
@@ -72,4 +96,6 @@ img {
 .caption {
   font-size: 75%;
   text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }

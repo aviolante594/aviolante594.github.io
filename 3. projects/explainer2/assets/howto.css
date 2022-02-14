@@ -1,0 +1,51 @@
+body {
+  color: whitesmoke;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+h1 {
+  color: black;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 10px;
+  background-color: whitesmoke;
+  height: 10vh;
+  margin: 0px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu div {
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  background-color: black;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  padding: 10px 10px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  background-color: transparent;
+  /*border: solid;
+  border-radius: 20px;
+  border-color: whitesmoke;*/
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+  align-items: center;
+}

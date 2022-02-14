@@ -1,16 +1,72 @@
+body {
+  color: whitesmoke;
+  font-family: 'Prompt', sans-serif;
+}
+
+h1 {
+  color: black;
+}
 
 .container {
   display: flex;
+  flex-direction: row;
   padding:10px;
-  background-color: seagreen;
-  min-height: 200px;
+  background-color: black;
+  height: 90vh;
+  justify-content: center;
 }
 
-.container div {
+.box1 {
+  padding: 10px 10px;
+  width: 400px;
+  display: flex;
+  background-color: transparent;
+  border: solid;
+  border-radius: 20px;
+  border-color: whitesmoke;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.box1 div {
+  background-color: seagreen;
   margin: 10px 10px;
-  width: 100px;
-  height: 100px;
-  background-color: bisque;
+}
+
+.box2 {
+  padding: 10px 10px;
+  width: 300px;
+  display: flex;
+  background-color: transparent;
+  border: solid;
+  border-radius: 20px;
+  border-color: whitesmoke;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.box2 div {
+  background-color: seagreen;
+  margin: 10px 10px;
+}
+
+.box3 {
+  padding: 10px 10px;
+  width: 300px;
+  display: flex;
+  border: solid;
+  border-radius: 20px;
+  border-color: whitesmoke;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.box3 div {
+  background-color: seagreen;
+  margin: 10px 10px;
 }
 
 img {
