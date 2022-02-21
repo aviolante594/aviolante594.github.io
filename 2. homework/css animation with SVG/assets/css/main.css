@@ -1,0 +1,191 @@
+body {
+  background-color: burlywood;
+}
+
+.container1 {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+* {box-sizing:  border-box;}
+
+.shape1 {
+  height: 800px;
+  animation: diagonalDown 4s 2s ease-out 1;
+  animation: rotate 2s 6s ease-out;
+}
+
+
+.shape2 {
+  height: 800px;
+  animation:  translateDown 4s 2s ease-out;
+  animation-iteration-count: 1;
+}
+
+.shape3 {
+  height: 800px;
+  animation:  translateUp 4s 2s ease-out;
+  animation-iteration-count: 1;
+}
+
+.shape4 {
+  height: 800px;
+  animation:  diagnonalUp 4s 2s ease-out;
+  animation-iteration-count: 1;
+ /* background-color: burlywood;*/
+}
+
+@keyframes diagonalDown {
+  0% {
+    transform: translate(0px,0px);
+  }
+  100% {
+    transform: translate(250px,250px);
+  }
+}
+
+@keyframes translateUp {
+  0% {
+    transform: translate(0px,0px);
+  }
+  100% {
+    transform: translate(0px,-200px);
+  }
+}
+
+@keyframes translateDown {
+  0% {
+    transform: translate(0px,0px);
+  }
+  100% {
+    transform: translate(0px,200px);
+  }
+}
+
+@keyframes diagnonalUp {
+  0% {
+    transform: translate(0px,0px);
+  }
+  100% {
+    transform: translate(-250px,-250px);
+  }
+}
+
+.shape1 circle {
+animation: fade 2s ease-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.shape2 circle {
+animation: fade 2s ease-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.shape3 circle {
+animation: fade 2s ease-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.shape4 circle {
+animation: fade 2s ease-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rotate{
+  0% {
+    transform: rotate(0turn);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
+*/
+
+/*
+.yin-yang path, .yin-yang circle {
+   animation: colorSwap 5s ease-out infinite, fade 5s ease-in alternate-reverse;
+}*/
+
+./*yin-yang {
+  height:500px;
+  animation: spinType 2s ease-out infinite;
+}
+
+@keyframes spinType {
+  0% {
+    transform: translate(0px,0px);
+  }
+  100% {
+    transform: translate(200px,200px);
+  }
+}
+
+.yin-yang:hover {
+  animation-play-state: paused;
+  cursor: crosshair;
+}
+
+
+.yin-yang path, .yin-yang circle {
+   animation: colorSwap 5s ease-out infinite, fade 5s ease-in alternate-reverse;
+}
+
+@keyframes colorSwap {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: #6d79cd;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}*/

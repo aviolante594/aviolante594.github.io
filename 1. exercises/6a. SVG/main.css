@@ -1,0 +1,21 @@
+body {
+	background: blueviolet;
+}
+
+.container{
+	flex-direction: column;
+	display: flex;
+	background: black;
+}
+
+#yin-yang {
+	height: 600px;
+}
+
+#yin-yang circle {
+  fill:  yellowgreen;
+}
+
+#yin-yang path {
+	fill: coral;
+}

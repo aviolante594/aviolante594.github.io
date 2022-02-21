@@ -1,0 +1,43 @@
+
+body {
+  background-color: pink;
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  text-align: center;
+  animation: spinType 0.5s ease-out; 3s;
+/*another way of doing the above
+
+animation-duration: 2s;
+animation-name:  spinType;
+animation-timing-function:  ease-in-out;
+animation-delay:  3s;
+
+*/
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+/*  80% {
+    transform: rotate(0.7turn);
+  }*/
+  100% {
+    transform: rotate(1turn);
+  }
+}

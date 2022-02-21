@@ -1,0 +1,57 @@
+
+.yin-yang {
+  height:500px;
+  animation: spinType 2s ease-out infinite;
+}
+
+@keyframes spinType {
+  0% {
+    transform: translate(0px,0px);
+  }
+  100% {
+    transform: translate(200px,200px);
+  }
+}
+
+.yin-yang:hover {
+  animation-play-state: paused;
+  cursor: crosshair;
+}
+
+
+.yin-yang path, .yin-yang circle {
+   animation: colorSwap 5s ease-out infinite, fade 5s ease-in alternate-reverse;
+}
+
+@keyframes colorSwap {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: #6d79cd;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/*@keyframes colorSwap {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: #6d79cd;
+  }
+}
+
+#yin-yang circle {
+  animation: colorSwap 2s ease-in; 3s;
+  animation-iteration-count: 3;
+}*/
