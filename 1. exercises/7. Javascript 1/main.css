@@ -13,8 +13,8 @@ section {
 
 .button {
   padding: 20px 50px;
-  border-radius: 70px;
   background-color:  white;
+  border-radius: 100px;
   color:  black;
   font-size:  60px;
   font-size: 20px;
@@ -37,5 +37,5 @@ section {
 }
 
 .gradient {
-	background-image: linear-gradient(blueviolet,silver);
+	background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/15349047/original_c767e8c60606ce5780f022ca74a8a04f.png?1645906850?bc=0)
 }
