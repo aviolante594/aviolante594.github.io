@@ -14,29 +14,37 @@ body {
 * {box-sizing:  border-box;}
 
 .shape1 {
-  height: 800px;
+  height: 600px;
   animation: diagonalDown 4s 2s ease-out 1;
   animation: rotate 2s 6s ease-out;
 }
 
 
 .shape2 {
-  height: 800px;
+  height: 600px;
   animation:  translateDown 4s 2s ease-out;
   animation-iteration-count: 1;
 }
 
+.container2 {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .shape3 {
-  height: 800px;
+  height: 600px;
   animation:  translateUp 4s 2s ease-out;
   animation-iteration-count: 1;
 }
 
 .shape4 {
-  height: 800px;
+  height: 600px;
   animation:  diagnonalUp 4s 2s ease-out;
   animation-iteration-count: 1;
- /* background-color: burlywood;*/
 }
 
 @keyframes diagonalDown {
