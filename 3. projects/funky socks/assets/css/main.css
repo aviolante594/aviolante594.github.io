@@ -1,0 +1,105 @@
+
+@font-face {
+  font-family:  fineCollege;
+  src: url("../fonts/fineCollege");
+}
+
+body {
+ background-color: #647e6b;
+}
+
+.wrapper1 {
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-family: 'fineCollege';
+  font-size: 150px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: indianred;
+  padding: 50px;
+  gap:  12px;
+}
+
+.socks {
+  justify-content: center;
+  display: flex;
+  background-color: dodgerblue;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sock1 {
+  width: 400px;
+}
+
+.sock2 {
+  width: 400px;
+}
+
+.sock3 {
+  width: 400px;
+}
+
+.sock4 {
+  width: 400px;
+}
+
+.sock5 {
+  width: 400px;
+}
+
+.sock6 {
+  width: 400px;
+}
+
+.sock7 {
+  width: 400px;
+}
+
+.sock8 {
+  width: 400px;
+}
+
+.sock9 {
+  width: 400px;
+}
+
+.sock10 {
+  width: 400px;
+}
+
+.sock11 {
+  width: 400px;
+}
+
+.sock12 {
+  width: 400px;
+}
+
+.sock13 {
+  width: 400px;
+}
+
+.sock_animation {
+  animation:  spinType 0.5s ease-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: 8ms ease-out;
+}
