@@ -264,7 +264,7 @@ a:link {
 
 /* individual fan pages*/
 
-.wrapper1_fanpages {
+.wrapper_fanpages {
   display: flex;
   background-color: #487c8d;
   flex-direction: row;
@@ -272,11 +272,13 @@ a:link {
   align-items: center;
 }
 
-.sock1_solo {
+.sock_solo {
  height: 100vh;
 }
 
-.sock_title_solo1 {
+/*  SOCK 1 - BUTTERFLY */
+
+.sock_title_solo1_1 {
   font-family: 'Franchise';
   font-size: 150px;
  /* display: flex;
@@ -284,22 +286,62 @@ a:link {
   align-items: center;*/
   color: #dc6382;
   position: absolute;
-  top: 60px;
-  left: 100px;
+  top: 8px;
+  left: 20px;
 }
 
-.sock_title_solo2 {
+.sock_title_solo2_1 {
   font-family: 'QuickenDemo';
   font-size: 100px;
   transform: rotate(30deg);
 /*  margin-bottom: -30px;*/
   color: #dc6382;
   position: absolute;
-  top: 600px;
-  left: 50px;
+  top: 620px;
+  left: 70px;
 }
 
-.sock_title_caption {
+.sock_title_caption_1 {
+  height: 80vh;
+  padding: 80px;
+  font-family:Montserrat-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  gap: 60px;
+  color: #f1e8d9;
+}
+
+/*  SOCK 2 - OUTERSPACE */
+
+.sock_title_solo1_2 {
+  font-family: 'Franchise';
+  font-size: 150px;
+ /* display: flex;
+  justify-content: flex-start;
+  align-items: center;*/
+  transform: rotate(-90deg);
+  color: #f1e8d9;
+  position: absolute;
+  top: 230px;
+  left: -180px;
+}
+
+.sock_title_solo2_2 {
+  font-family: 'QuickenDemo';
+  font-size: 100px;
+/*  transform: rotate(60deg);*/
+/*  margin-bottom: -30px;*/
+  color: #f1e8d9;
+  position: absolute;
+  top: 670px;
+  left: 100px;
+}
+
+.sock_title_caption_2 {
   height: 80vh;
   padding: 80px;
   font-family:Montserrat-Regular;
@@ -314,15 +356,112 @@ a:link {
 }
 
 
-.wrapper2_fanpages {
-  display: flex;
-  flex-wrap: wrap;
+/*  SOCK 3 - IKEA */
+
+.sock_title_solo1_3 {
+  font-family: 'Franchise';
+  font-size: 150px;
+ /* display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  background-color: indianred;
-  padding: 50px;
-  gap:  12px;
+  align-items: center;*/
+/*  transform: rotate(30deg);*/
+  color: #f1e8d9;
+  position: absolute;
+  top: 40px;
+  left: 200px;
 }
+
+.sock_title_solo2_3 {
+  font-family: 'QuickenDemo';
+  font-size: 100px;
+/*  margin-bottom: -30px;*/
+  color: #f1e8d9;
+  position: absolute;
+  top: 190px;
+  left: 270px;
+}
+
+.sock_title_caption_3 {
+  height: 80vh;
+  padding: 80px;
+  font-family:Montserrat-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  gap: 60px;
+  color: #b2bcb4;
+}
+
+/*  SOCK 4 - Pineapple Ducky */
+
+.sock_title_solo1_4 {
+  font-family: 'Franchise';
+  font-size: 150px;
+ /* display: flex;
+  justify-content: flex-start;
+  align-items: center;*/
+/*  transform: rotate(30deg);*/
+  color:  #dc6382;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.sock_title_solo2_4 {
+  font-family: 'QuickenDemo';
+  font-size: 100px;
+  transform: rotate(-45deg);
+/*  margin-bottom: -30px;*/
+  color:  #dc6382;
+  position: absolute;
+  top: 680px;
+  left: 350px;
+}
+
+.sock_title_caption_4 {
+  height: 80vh;
+  padding: 80px;
+  font-family:Montserrat-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  gap: 60px;
+  color: #aa96bf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
