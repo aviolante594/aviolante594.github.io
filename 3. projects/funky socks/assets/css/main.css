@@ -36,19 +36,13 @@
 
 
 body {
- background-color: #647e6b;
+/* background-color: #647e6b;*/
 }
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: #487c8d
 }
-
-a: visited {
-  text-decoration: none;
-  color: black;
-}
-
 .wrapper1 {
   display: flex;
   background-color: #487c8d;
@@ -116,6 +110,7 @@ a: visited {
   gap:  5px;
   padding: 20px;
   font-family: 'Montserrat-Regular';
+  color: #487c8d;
 }
 
 .names1 {
@@ -271,16 +266,53 @@ a: visited {
 
 .wrapper1_fanpages {
   display: flex;
-  background-color: yellow;
-  justify-content: flex-start;
-  align-items: flex-start;
+  background-color: #487c8d;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.header_fanpages {
-  font-family: 'fineCollege';
-  font-size: 20px;
-  background-color: blueviolet;
+.sock1_solo {
+ height: 100vh;
 }
+
+.sock_title_solo1 {
+  font-family: 'Franchise';
+  font-size: 150px;
+ /* display: flex;
+  justify-content: flex-start;
+  align-items: center;*/
+  color: #dc6382;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.sock_title_solo2 {
+  font-family: 'QuickenDemo';
+  font-size: 100px;
+  transform: rotate(30deg);
+/*  margin-bottom: -30px;*/
+  color: #dc6382;
+  position: absolute;
+  top: 600px;
+  left: 50px;
+}
+
+.sock_title_caption {
+  height: 80vh;
+  padding: 80px;
+  font-family:Montserrat-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  gap: 60px;
+  color: #b2bcb4;
+}
+
 
 .wrapper2_fanpages {
   display: flex;
